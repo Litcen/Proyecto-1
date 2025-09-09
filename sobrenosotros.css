@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+   .navbar.fixed-top {
+            top:0px;
+            left: 0px;
+            right: 0px;
+            z-index: 1030;
+        }
+
+        .navbar {
+            background-color:#000000!important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        /*Logo ROMANCEN*/
+        .logo {
+            font-family:'Montserrat', sans-serif;
+            font-size:2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 2px solid rgb(255, 255, 255);
+            padding-left: 0rem;
+            padding-right: 5rem;
+            margin-right: 1.7rem;
+        }
+        .logo .navbar-brand {
+            color:#fe0a84 !important;
+        }
+        /*Enlaces de Navegación*/
+        .nav-link {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.8);
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            transition: color 0.2s ease-in-out;
+        }
+        .nav-link:hover {
+            color: white;
+        }
+        .nav-link.active {
+            color: white;
+            font-weight: 600;
+            border-bottom: 2rem solid #FFFFFF;
+            padding-bottom: calc(0.3rem - 2px);
+        }
+
+        .navbar-nav .nav-item:last-child {
+            border-right: 2px solid rgb(255, 255, 255);
+            padding-right: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        /*Icono de Búsqueda*/
+        .search-form {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-icon {
+            color:#ff007f;
+            margin-left: 0.8rem;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        .search-icon:hover {
+            color:#ff007f;
+        }
+      
+        .content-section {
+            padding: 3rem 2rem;
+            background-color:#ff007f;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*Sección de Encabezado del Blog*/
+        .blog-header-section {
+            background-color:#ecb8c5;
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-bottom: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+        .blog-header-section h1 {
+            color:black;
+        }
+        .blog-header-section h2 {
+            color:#000000;
+        }
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ff007f, #ff4da6);
+}
+
+.titulo-brillante {
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 0 0 15px #ff4da6, 0 0 25px #ff80bf, 0 0 50px #ff007f;
+  animation: brillo 2s infinite alternate;
+}
+@keyframes brillo {
+  from { text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff80bf; }
+  to { text-shadow: 0 0 25px #ff80bf, 0 0 40px #ff007f; }
+}
+
+.historia {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+  display: grid;
+  gap: 30px;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(255, 0, 127, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 30px rgba(255, 77, 166, 0.8);
+}
+
+.card h2 {
+  color: #ff4da6;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+ /*Pie de Página*/
+        footer {
+            background-color:black;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 0.5rem 0.5rem;
+            margin-top: 0.5rem;
+        }
+        footer a:not(.social-icon) {
+            display: none;
+        }
+        .derechos{
+            font-size: 13px;    
+        }
+        /*--- ICONOS DE PIE DE PAGINA ---*/
+        .social-links {
+            margin-bottom: 0.5rem;
+        }
+
+        .social-links a {
+            color:#ff007f;
+            text-decoration: none;
+            font-size: 2rem;
+            margin: 0 0.8rem;
+            transition: color 0.1s ease-in-out;
+        }
+
+        .social-links a:hover {
+            color: #ffffff;
+        }
+      .derechos{
+        color:#ff007f;
+    }

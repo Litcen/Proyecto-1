@@ -1,0 +1,211 @@
+body {
+    background-color: #000000; /* Color de fondo rosa claro para la página */
+}
+
+   .navbar.fixed-top {
+            top:0px;
+            left: 0px;
+            right: 0px;
+            z-index: 1030;
+        }
+
+        .navbar {
+            background-color:#000000!important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        /*Logo ROMANCEN*/
+        .logo {
+            font-family:'Montserrat', sans-serif;
+            font-size:2.5rem;
+            font-weight: 700;
+            color: #ff007f !important;
+            letter-spacing: 0.3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 2px solid rgb(255, 255, 255);
+            padding-left: 0rem;
+            padding-right: 5rem;
+            margin-right: 1.7rem;
+        }
+        .logo .navbar-brand {
+            color:#ff007f !important;
+        }
+     
+.search-btn:hover {
+  background: #e60073;
+  transform: rotate(10deg) scale(1.1);
+}
+        /*Icono de Búsqueda*/
+        .search-form {
+          background: #ff007f;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: left;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .search-icon {
+            color:#ffffff;
+            margin-left: 0.2rem;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        .search-icon:hover {
+            color:#000000;
+        }
+      
+        .content-section {
+            padding: 3rem 2rem;
+            background-color:#100c0e;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*Sección de Encabezado del Blog*/
+        .blog-header-section {
+            background-color:#ff007f;
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-bottom: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+        .blog-header-section h1 {
+            color:black;
+        }
+        .blog-header-section h2 {
+            color:#000000;
+        }
+          footer {
+            background-color:black;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 0.5rem 0.5rem;
+            margin-top: 0.5rem;
+        }
+        footer a:not(.social-icon) {
+            display: none;
+        }
+        .derechos{
+            font-size: 13px;    
+        }
+
+        .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080.png?text=Glamour+Maquillaje');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 8rem 2rem;
+    position: relative;
+    color: white;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-style: italic;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Contenedor de Productos (Grid) */
+.products-container {
+    max-width: 1400px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+/* Tarjeta de Producto */
+.product-card {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-pink);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+    background-color: #131313;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.card-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+.product-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.product-description {
+    color: #ffffff; /* blanco */
+    font-size: 1rem;
+}
+.site-footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    border-top: 1px solid var(--color-pink);
+    margin-top: 4rem;
+}
+        /*--- ICONOS DE PIE DE PAGINA ---*/
+        .social-links {
+            margin-bottom: 0.5rem;
+        }
+
+        .social-links a {
+            color:#ff007f;
+            text-decoration: none;
+            font-size: 2rem;
+            margin: 0 0.8rem;
+            transition: color 0.1s ease-in-out;
+        }
+
+        .social-links a:hover {
+            color: #ffffff;
+        }
+      .derechos{
+        color:#ff007f;
+    }
